@@ -27,8 +27,21 @@ theme:
         icon: fontawesome/solid/sun
         name: Switch to light mode
 
+  #font:
+    #text: Underdog
+    #text: Roboto
+    #text: Roboto Mono
+
+  logo: assets/logo.png
+
 markdown_extensions:
   - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
+  - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  
