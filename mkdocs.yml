@@ -1,0 +1,9 @@
+site_name: hello
+nav:
+    - Home: index.md
+    - About: about.md
+    - User Guide:
+        - New Page: nested-page.md
+
+theme:
+    name: material
