@@ -1,0 +1,1 @@
+Favicon Generator: https://favicon.io/favicon-generator/

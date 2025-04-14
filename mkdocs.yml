@@ -1,11 +1,16 @@
 site_name: Akari Records
+site_url: https://example.com
+site_author: Vladyslav Sorokin
 nav:
   - Main Page: index.md
-  - 'Japanese Guides':
+  - Japanese Guides:
     - Yomitan Configuration: jpguides/yomitan.md
+  - Others:
+    - Useful Links: others/links.md
 
 plugins:
   - search
+  #- social doesn't work properly on windows for some reason
 
 theme:
   name: material
@@ -33,6 +38,17 @@ theme:
     #text: Roboto Mono
 
   logo: assets/logo.png
+  favicon: assets/favicon.png
+
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    #- navigation.tabs
+    - navigation.sections
+    #- navigation.path
+    - toc.follow
+    #- navigation.top
+    - search.suggest
 
 markdown_extensions:
   - attr_list
@@ -44,4 +60,6 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  
+
+extra:
+  generator: false
