@@ -4,7 +4,8 @@ site_author: Vladyslav Sorokin
 nav:
   - Main Page: index.md
   - Japanese Guides:
-    - Yomitan Configuration: jpguides/yomitan.md
+    - Anki: jpguides/anki.md
+    - Yomitan: jpguides/yomitan.md
   - Others:
     - Useful Links: others/links.md
 
@@ -55,8 +56,11 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+  - def_list
 
   - pymdownx.blocks.caption
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
