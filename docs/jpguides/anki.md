@@ -1,7 +1,7 @@
 # Anki Setup
 
 <figure markdown="span">
-    ![anki tan](../assets/images/anki-tan9.png)
+    ![anki tan](../assets/images/anki-tan.png)
 </figure>
 
 ### Download
