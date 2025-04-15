@@ -56,6 +56,30 @@ One of my favourite things about this note is that you can hover over kanji and 
 
 ### Add-ons
 
+Highly recommended to install listed below essential add-ons. Navigate to `Tools→Add-ons`, push `Get Add-ons...`, and type the code according to addon page. Then some of these add-ons will have `Config` option or separate settings button in `Tools` tab which you can tweak up to your liking. I leave everything at default, except Review Heatmap.
+
+#### Essentiual add-ons
+
+* [**AnkiConnect**](https://ankiweb.net/shared/info/2055492159) (2055492159): essential add-on to connect anki to external apps such as yomitan dictionaries
+* [**AJT Japanese for JP Mining Note**](https://ankiweb.net/shared/info/200813220) (200813220): furigana and pitch accent generator for jp-mining-note Note Type
+* [**VOICEVOX Japanese Text To Speech Audio Generator**](https://ankiweb.net/shared/info/366960193) (366960193): AI TTS generator
+* [**Review Heatmap**](https://ankiweb.net/shared/info/1771074083) (1771074083): review activity visualization GitHub style
+
+!!! note
+    I recommend to put heatmap `Tools→Review Heatmap Options...` in **Continuous Timeline** for better looks.
+    ![anki heatmap](../assets/images/anki_heatmap_settings2.png)
+
+#### Optional add-ons
+
+* [**Kanji Grid Kuuube**](https://ankiweb.net/shared/info/1610304449) (1610304449): learnt kanji visualization
+* [**FSRS Helper**](https://ankiweb.net/shared/info/759844606) (759844606): additional useful functionality for anki scheduler
+* [**Advanced Browser**](https://ankiweb.net/shared/info/874215009) (874215009): more features to anki browser
+
+### Setup Completed
+Now your Anki Setup should be completed, congratulations! :heart:
+
+As the next setup, you can go to [setting up Yomitan](/jpguides/yomitan/) for quick look ups and easy card creation.
+
 ### Thanks
 
 * [Damien Elmes](https://github.com/dae) and [Anki Team](https://github.com/ankitects/anki/graphs/contributors) for the best software in existence
